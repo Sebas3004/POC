@@ -1,0 +1,16 @@
+<!-- Archivo: templates/dashboard.html -->
+{% extends "base.html" %}
+
+{% block content %}
+<div class="dashboard">
+    <h2>Panel de Control</h2>
+    <div class="welcome-message">
+        <p>¡Bienvenido, <strong>{{ name }}</strong>!</p>
+        <p>Has accedido correctamente a un área protegida.</p>
+        <p>Estado de autenticación: <span class="status-authorized">AUTORIZADO</span></p>
+    </div>
+    <div class="actions">
+        <a href="{{ url_for('logout') }}" class="btn btn-logout">Cerrar Sesión</a>
+    </div>
+</div>
+{% endblock %}
