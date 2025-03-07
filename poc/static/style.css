@@ -103,20 +103,6 @@ main {
     background-color: #c82333;
 }
 
-.form-footer {
-    text-align: center;
-    margin-top: 1.5rem;
-}
-
-.form-footer a {
-    color: #305A72;
-    text-decoration: none;
-}
-
-.form-footer a:hover {
-    text-decoration: underline;
-}
-
 .dashboard {
     text-align: center;
 }
@@ -143,11 +129,3 @@ main {
     margin-top: 2rem;
 }
 
-footer {
-    text-align: center;
-    padding: 1rem;
-    background: #f9f9f9;
-    border-top: 1px solid #eee;
-    color: #666;
-    font-size: 0.9rem;
-}
