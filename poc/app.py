@@ -54,7 +54,7 @@ def register():
             flash('El nombre de usuario ya existe. Por favor, elija otro.')
             return redirect(url_for('register'))
         
-        #Creación de un nuevo usuario
+        #Registro de usuarios
         new_user = User(username=username)
         new_user.set_password(password)
         
